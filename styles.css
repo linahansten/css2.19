@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(83, 47, 12);
+    background-image: url(nav-rashmi-kalsi-eN2KX-64ZVM-unsplash.jpg);
+    background-size: contain;
+    color: antiquewhite;
+    font-family: 'Satisfy', cursive;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    background-color: rgba(83, 47, 12, 0.249);
+    font-size: 3rem;
+    text-shadow: 3px 3px 6px rgba(83, 47, 12);
+}
+
+.container {
+    padding: 30px 200px;
+}
+
+.container h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 6px rgba(83, 47, 12);
+}
+
+.container p {
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 6px rgba(83, 47, 12);
+}
